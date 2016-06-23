@@ -11,3 +11,11 @@ $ git log
 $ git reflog
 
 $ git reset --hard HEAD^
+
+//撤销工作区的修改
+$ git checkout -- readme.txt
+$ git reset HEAD readme.txt
+
+$ git remote add name address
+$ git push -u origin master
+$ git push origin master
